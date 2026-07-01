@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class A
+{
+    public static void main(String[]args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int snum=sc.nextInt();
+        int lnum=sc.nextInt();
+        if(snum>lnum){
+            System.out.print("INVALID RANGE");
+        }
+        else{
+            for(int i=snum;i<=lnum;i++)
+            {
+                if(i%2==0)
+                {
+                    System.out.print(i+" ");
+                }
+            }
+        }
+        
+    }
+}
