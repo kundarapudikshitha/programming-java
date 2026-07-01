@@ -1,0 +1,26 @@
+class A
+{
+    public static void main(String[]args)
+    {
+        java.util.Scanner sc=new java.util.Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int count=0;
+        if(a>b){
+            System.out.println("INVALID INPUTS");
+        }else{
+        for(int i=a;i<=b;i++)
+        {
+            if(i%2==0){
+                if(count%2==0){
+                System.out.print(i+" ");
+            }count++;
+                
+            }
+                
+            }if(count==0){
+                System.out.println("NO NUMBERS");
+            }
+        }
+    }
+}
