@@ -1,0 +1,17 @@
+class Main
+{
+    public static void main(String []args)
+    {
+        java.util.Scanner sc=new java.util.Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        if(a>b && a>c){
+            System.out.println(a+" is a Biggest Number from the Given Numbers");
+        }else if(b>a && b>c){
+            System.out.println(b+" is a Biggest Number from the Given Numbers");
+        }else{
+            System.out.println(c+" is a Biggest Number from the Given Numbers");
+        }
+    }
+}
