@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class A{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        float n=sc.nextFloat();
+        float n1=sc.nextFloat();
+        int c=0;
+        for(float i=n;i<=n1;i+=0.2){
+            if(c==0){
+                System.out.printf("%.1f^2",i);
+                c++;
+            }else{
+                System.out.printf(", "+"%.1f^2",i);
+            }
+        }
+        System.out.print(".");
+    }
+}
